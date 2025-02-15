@@ -1,0 +1,170 @@
+// Wap to check given number is palindrome or not 
+
+
+//public class App
+//{
+//	public static void main(String[] args)
+//	{
+//		int n = 121 ;
+//		if(isPalindrome(n))
+//		{
+//			System.out.println(" palindrome "+n);
+//		}	
+//	}
+//	
+//	private static boolean isPalindrome(int n)
+//	{
+//		int n1 = n , sum =0; 
+//		
+//		while(n1 !=0)
+//		{
+//			sum *=10;
+//			sum += n1 %10;
+//			n1 /=10;
+//		}
+//		return n== sum;
+//	}
+//}
+
+
+
+// Wap to find 75 palindrome number 
+
+
+//public class App
+//{
+//	public static void main(String[] args)
+//	{
+//		int num = 0;
+//		int count  = 0;
+//		
+//		while(count < 75)
+//		{
+//			num ++;
+//			if(isPalindrome(num))
+//			{
+//				count ++;
+//			}
+//		}
+//		
+//		System.out.println(" 75th palindrome number is "+num );
+//	
+//	}
+//
+//	private static boolean isPalindrome(int n)
+//	{
+//		int n1 = n , sum =0; 
+//		
+//		while(n1 !=0)
+//		{
+//			sum *=10;
+//			sum += n1 %10;
+//			n1 /=10;
+//		}
+//		return n == sum;	
+//	}
+//}
+
+
+
+// Wap to display 20  to 50  palindrome
+
+
+//public class App
+//{
+//	public static void main(String[] args)
+//	{
+//		int f = 20 ; int  l = 50 ;
+//		for(int i= f ; i<= l ; i++)
+//		{
+//			if(ispalindrome(i))
+//			{
+//				System.out.println(" palindrome "+i);
+//			}
+//		}
+//	}
+//
+//	private static boolean ispalindrome(int n)
+//	{
+//		int n1 = n , sum = 0;
+//		
+//		while(n1 !=0)
+//		{
+//			sum *=10;
+//			sum += n1 %10;
+//			n1 /=10;
+//			
+//		}
+//		
+//		return n == sum;
+//	}
+//}
+
+
+
+
+// Wap to check given number is Armstrong or not  eg -153
+
+
+//public class App
+//{
+//	public static void main(String[] args)
+//	{
+//		int n = 153;
+//		if(isArmstrong(n))
+//		{
+//			System.out.println(" armstrong number "+ n);
+//		}
+//	}
+//
+//	private static boolean isArmstrong(int n) 
+//	{
+//		int n1 = n , sum = 0;
+//		int digits = String.valueOf(n1).length();
+//		
+//		while( n1 !=0)
+//		{
+//			int digit = n1 %10;
+//			sum += Math.pow(digit, digits);
+//			n1 /=10;	
+//		}
+//		
+//		return n == sum;
+//	}	
+//}
+
+
+
+
+// Wap to check given number is prime or not
+
+//public class App
+//{
+//	public static void main(String[] args)
+//	{
+//		int n = 11;
+//		if(isPrime(n))
+//		{
+//			System.out.println(" prime number  "+ n);
+//		}
+//	}
+//	
+//	private static boolean isPrime(int n)
+//	{
+//		if( n <= 1)
+//		{
+//			return false;
+//		}
+//		for(int i= 2; i<= Math.sqrt(n);i++)
+//		{
+//			if(n % i==0)
+//			{
+//				return false;
+//				
+//			}
+//		}
+//		
+//		return true;
+//		
+//	}
+//}
